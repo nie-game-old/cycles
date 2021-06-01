@@ -192,7 +192,7 @@ if(CYCLES_STANDALONE_REPOSITORY)
     set(ZLIB_DIR ${_cycles_lib_dir}/zlib)
     set(ZLIB_FOUND ON)
   elseif(NOT APPLE)
-    find_package(ZLIB REQUIRED)
+    #find_package(ZLIB REQUIRED)
   endif()
 endif()
 
