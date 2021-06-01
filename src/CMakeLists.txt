@@ -397,7 +397,7 @@ if(WITH_CYCLES_NETWORK)
 endif()
 
 if(WITH_CYCLES_STANDALONE OR WITH_CYCLES_NETWORK OR WITH_CYCLES_CUBIN_COMPILER)
-  add_subdirectory(app)
+  #add_subdirectory(app)
 endif()
 
 add_subdirectory(bvh)
